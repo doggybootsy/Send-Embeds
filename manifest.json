@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "description": "Caution YOU can get banned",
   "author": "Doggybootsy",
-  "license": ""
+  "license": "",
+  "icon": "./assets/PreviewMessage.png"
 }

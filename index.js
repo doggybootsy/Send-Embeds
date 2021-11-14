@@ -11,6 +11,7 @@ export default class sendEmbeds extends Plugin {
       if (!toolbar?.splice) return;
       else toolbar.splice(0,0,<ToolbarIcon />)
     })
+    this.injectStyles("./components/Style.scss")
   }
 
   stop () {
