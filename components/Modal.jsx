@@ -7,7 +7,6 @@ import { _int2hex } from "@vizality/util/color"
 const premiumOrNah = getModule(m => m?.default?.canUseIncreasedMessageLength).default?.canUseIncreasedMessageLength(getModule("getCurrentUser").getCurrentUser())
 const FormTitle = getModuleByDisplayName("FormTitle")
 const { ModalRoot, ModalSize, ModalHeader, ModalContent, ModalFooter } = getModule("ModalRoot")
-
 const { defaultMarginh5, h5 } = getModule("defaultMarginh5")
 
 const queue = getModule(m => m?.default?.enqueue).default
